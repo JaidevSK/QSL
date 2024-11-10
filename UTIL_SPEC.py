@@ -22,7 +22,7 @@ def SPEC_bm():
                 simulator_dict[filename.split(".")[0]] = mean_time
 
     ibm_dict = {}
-    df = pd.read_csv("Benchmarks/FinalOutput.csv")
+    df = pd.read_csv("Benchmarks/IBMOutput.csv")
     for index, row in df.iterrows():
         ibm_dict[row["program"]] = row["usage(s)"]
     speedup_dict = {}
