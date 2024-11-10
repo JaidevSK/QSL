@@ -4,6 +4,6 @@
 
 - Some Images corresponding to the working of the simulator are:
 - Coding Interface
-![Screenshot (337)](https://github.com/user-attachments/assets/cb22561a-fa0a-43ca-b903-29d9bba5f00b)
+![image](https://github.com/user-attachments/assets/47258884-4f67-41e1-b610-9622f2213a4c)
 - Benchmarking
 ![Screenshot (336)](https://github.com/user-attachments/assets/6cc6a478-b5a4-42ad-aa42-3d312a47e907)
