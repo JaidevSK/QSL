@@ -93,7 +93,7 @@ class Q5Processor():
         #    coeff = self.psi[ps]
         #    if      PS[self.q - 1 - qs] == "0": psi0[ps] = coeff
         #    elif    PS[self.q - 1 - qs] == "1": psi1[ps] = coeff
-        #    else: raise ValueError("idk what's doing on...")
+        #    else: raise ValueError("ERRO in Measure")
         #prob0 = np.sum(np.abs(psi0)**2)
         #prob1 = np.sum(np.abs(psi1)**2)
         #psi0Norm = prob0**0.5
@@ -154,7 +154,7 @@ class Q5Processor():
             coeff = self.psi[ps]
             if      PS[self.q - 1 - qs] == "0": psi0[ps] = coeff
             elif    PS[self.q - 1 - qs] == "1": psi1[ps] = coeff
-            else: raise ValueError("idk what's doing on...")
+            else: raise ValueError("ERRO in Measure")
         prob0 = np.sum(np.abs(psi0)**2)
         prob1 = np.sum(np.abs(psi1)**2)
         psi0Norm = prob0**0.5
@@ -268,7 +268,7 @@ class Q5Processor():
                 psid[down] = psid[down] + coeff * Gate[0][1]
                 psid[up]   = psid[up]   + coeff * Gate[1][1]
             else:
-                raise ValueError("idk what's doing on...")
+                raise ValueError("ERROR in SingleQubitGate")
         self.psi = psid
 
     def R_Type(self, rs, sb, rt, tb, funct):
