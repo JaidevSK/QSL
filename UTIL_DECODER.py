@@ -486,7 +486,7 @@ if __name__=="__main__":
     SET(0,0,0,2)
     SET(1,1,0,2)
     ok:   f:AND(0,0,1,1)
-    idgaf: XOR(0,0,1,1)
+    label1: XOR(0,0,1,1)
     not ok: #stuff..
     abort mission: JPN(0,0,idgaf)
     """
