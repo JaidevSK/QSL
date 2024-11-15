@@ -229,7 +229,7 @@ def ConvertProgram(P:str,fancy=False):
 if __name__=="__main__":
     P ="""
     ok:   f:AND(0,0,1,1)
-    idgaf: IOR(0,0,1,1)
+    label1: IOR(0,0,1,1)
     not ok: #stuff..
     abort mission: JPP(0,0,idgaf)
     more labels.. :
