@@ -1,0 +1,6 @@
+tqdm
+tkinter
+sympy
+numpy
+functools
+pandas
